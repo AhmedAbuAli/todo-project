@@ -1,0 +1,36 @@
+body {
+    font-family: 'Palanquin', sans-serif;
+    margin: auto 65px;
+}
+.headButtons  {
+    float: right;
+    margin-top: 4vh;
+    margin-left: 2vh;
+    background-color: gray;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+.formButtons{
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.section {
+    width: 100%;
+    height: 10vh;
+}
+p,h2,h1{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+form {
+    width: 60vh; 
+    height: 80vh;
+    margin-left: 42%
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <script src="js/app.js"></script>
+    <title>Do Now | Home Page</title>
+</head>
+<body>
+    <header>
+        <h3 id="title">Do Now</h3>
+       <a href="index.html"> <button class="headerButtons">Home Page</button></a>
+       <a href="about.html"> <button class="headerButtons">About Page</button></a>
+    </header>
+
+    <div class="taskSection">
+        <table>
+            <thead>
+                <tr>
+                    <th>Task</th>
+                    <th>status</th>
+                </tr>
+            </thead>
+            <h3>Press Done if you finshed the task</h3>
+            <tbody>
+                <tr>
+                    <td id="task1">Clean The Room</td>
+                    <td><button id="btn1"  onclick="DoneTask(task1)" class="taskButtons">Done</button></td>
+                </tr>
+                <tr>
+                    <td id="task2">Study JS</td>
+                    <td><button id="btn2" onclick="DoneTask2()"  class="taskButtons">Done</button></td>
+                </tr>
+                <tr>
+                    <td id="task3">Wash The car</td>
+                    <td><button id="btn3" onclick="DoneTask3()"class="taskButtons">Done</button></td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </div>
+
+    
+    <footer>
+        <div>
+            <p style="text-align: center; ">Copyright @ 2022 Do Now Website</p>
+        </div>
+    </footer>  
+</body>
+</html>
