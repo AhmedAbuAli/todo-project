@@ -1,0 +1,57 @@
+body {
+    font-family: 'Palanquin', sans-serif;
+    width: 90%;
+    margin: auto;
+}
+header {
+    width: 100%;
+    height: 10vh;
+    margin: auto;
+}
+#title {
+    display: inline-block;
+}
+.headerButtons  {
+    float: right;
+    margin-top: 4vh;
+    margin-left: 2vh;
+    background-color: gray;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+.taskSection{
+    margin-top: 10vh;
+    width: 100%;
+    height: 30vh;
+}
+.taskButtons {
+    background-color: rgb(119, 5, 5);
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+table {
+    margin: auto;
+    width: 50%;
+    border:1px solid #b3adad;
+    border-collapse:collapse;
+    padding:5px;
+}
+table th {
+    border:1px solid #b3adad;
+    padding:5px;
+    background: #f0f0f0;
+    color: #313030;
+}
+table td {
+    border:1px solid #b3adad;
+    text-align:center;
+    padding:5px;
+    background: #ffffff;
+    color: #313030;
+}
